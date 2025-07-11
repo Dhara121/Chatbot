@@ -1,42 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-*.log
-
-# Jupyter & IPython
-.ipynb_checkpoints/
-profile_default/
-
-# Virtual Environments
 .venv/
 env/
 venv/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Transformers & HF cache
-.cache/
-transformers_cache/
-huggingface_hub/
-*.safetensors
-*.bin
-
-# Models & embeddings
-models/
-embeddings/
-
-# IDE settings
-.vscode/
-.idea/
-
-# Temporary & lock files
-*.tmp
-*.temp
-Pipfile.lock
