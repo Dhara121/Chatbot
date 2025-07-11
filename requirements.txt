@@ -1,0 +1,7 @@
+transformers
+datasets
+sentence-transformers
+scikit-learn
+python-dotenv
+pandas
+torch
