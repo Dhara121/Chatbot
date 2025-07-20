@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: chatbot
+    env: docker
+    repo: https://github.com/Dhara121/Chatbot
+    branch: main
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
